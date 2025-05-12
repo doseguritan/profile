@@ -23,10 +23,10 @@ const CONFIG = {
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
-      manual: {
-        // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
-      },
+      // manual: {
+      //   // Properties for manually specifying projects
+      //   projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+      // },
     },
     external: {
       header: 'Works',
@@ -47,18 +47,39 @@ const CONFIG = {
           // imageUrl: 'https://www.instagram.com/reel/CjrztjhPIi-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
           link: 'https://www.instagram.com/reel/CjrztjhPIi-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
         },
+        {
+          title: 'Conversar Website',
+          // description:
+          //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          // imageUrl: 'https://www.instagram.com/reel/CjrztjhPIi-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+          link: 'https://conversar.net',
+        },
+        {
+          title: 'Verdsign Website',
+          // description:
+          //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          // imageUrl: 'https://www.instagram.com/reel/CjrztjhPIi-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+          link: 'https://verdsign.com',
+        },
+        {
+          title: 'Visualizar Website',
+          // description:
+          //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          // imageUrl: 'https://www.instagram.com/reel/CjrztjhPIi-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+          link: 'https://vizualizar.com',
+        },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Daryl Seguritan',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
+    linkedin: 'daryl-seguritan-4797a358',
     x: '',
-    mastodon: 'arifszn@mastodon.social',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -79,7 +100,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1XqJXPpe9fbCR0j98_uez5V4_IBmflHgv/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Ruby on Rails',
@@ -87,7 +108,9 @@ const CONFIG = {
     'PHP',
     'Laravel',
     'JavaScript',
+    'TypeScript',
     'React.js',
+    'Solid.js',
     'Node.js',
     'MySQL',
     'PostgreSQL',
