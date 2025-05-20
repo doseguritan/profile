@@ -9,17 +9,17 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/profile/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
+        limit: 4, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -68,6 +68,33 @@ const CONFIG = {
           // imageUrl: 'https://www.instagram.com/reel/CjrztjhPIi-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
           link: 'https://vizualizar.com',
         },
+        {
+          title: 'Synops',
+          // description:
+          //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          // imageUrl: 'https://www.instagram.com/reel/CjrztjhPIi-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+          link: 'https://www.dvsi.com/work/data-visualisation',
+        },
+        {
+          title: 'Recruitment Application',
+          link: 'https://www.dvsi.com/work/workplace-management-recruitment-application',
+        },
+        {
+          title: 'Accenture Operations Malaysia',
+          link: 'https://conversar.net/convo/projects/accenture-operations-malaysia-2021-13'
+        },
+        {
+          title: 'Safe Induction for SI Group',
+          link: 'https://conversar.net/convo/projects/si-group-2018-17'
+        },
+        {
+          title: 'Singapore Tourism Board',
+          link: 'https://conversar.net/convo/projects/singapore-tourism-board'
+        },
+        {
+          title: 'Katoen Natie',
+          link: 'https://conversar.net/convo/projects/katoen-natie-singapore'
+        }
       ],
     },
   },
@@ -92,15 +119,15 @@ const CONFIG = {
     medium: '',
     dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
+    skype: 'daryl.seguritan',
     telegram: '',
-    website: '',
+    website: 'https://doseguritan.github.io/profile',
     phone: '+639622029539',
     email: 'daryldhagz.21@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1XqJXPpe9fbCR0j98_uez5V4_IBmflHgv/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://docs.google.com/document/d/1Qg1lSLWzC0nRz5ODyh_i4hO_GcLhVQ0zHCQ_ga6Pn4w/edit?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Ruby on Rails',
